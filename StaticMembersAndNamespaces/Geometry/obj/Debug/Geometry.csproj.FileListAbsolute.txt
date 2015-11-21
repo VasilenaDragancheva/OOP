@@ -1,1 +1,2 @@
 c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Geometry\bin\Debug\Geometry.exe.config
+C:\Users\bacuty\Documents\GitHub\OOP\StaticMembersAndNamespaces\Geometry\bin\Debug\Geometry.exe.config

@@ -4,3 +4,6 @@ c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces
 c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\bin\Debug\Problem1_Point3D.pdb
 c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.exe
 c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.pdb
+C:\Users\bacuty\Documents\GitHub\OOP\StaticMembersAndNamespaces\Problem1_Point3D\bin\Debug\Problem1_Point3D.exe.config
+C:\Users\bacuty\Documents\GitHub\OOP\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.exe
+C:\Users\bacuty\Documents\GitHub\OOP\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.pdb
