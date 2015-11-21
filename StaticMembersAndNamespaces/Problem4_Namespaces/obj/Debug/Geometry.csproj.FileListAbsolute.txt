@@ -1,0 +1,2 @@
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem4_Namespaces\bin\Debug\Problem4_Namespaces.exe.config
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem4_Namespaces\bin\Debug\Geometry.exe.config

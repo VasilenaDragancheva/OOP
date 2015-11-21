@@ -1,0 +1,6 @@
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\bin\Debug\Problem1_Point3D.exe.config
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.csprojResolveAssemblyReference.cache
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\bin\Debug\Problem1_Point3D.exe
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\bin\Debug\Problem1_Point3D.pdb
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.exe
+c:\users\bacuty\documents\visual studio 2013\Projects\StaticMembersAndNamespaces\Problem1_Point3D\obj\Debug\Problem1_Point3D.pdb
