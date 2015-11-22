@@ -44,14 +44,20 @@
     <Compile Include="Classes\CurrentStudent.cs" />
     <Compile Include="Classes\DropoutStudent.cs" />
     <Compile Include="Classes\GraduatedStudent.cs" />
+    <Compile Include="Classes\JuniorTrainer.cs" />
     <Compile Include="Classes\OnlineStudent.cs" />
     <Compile Include="Classes\OnsiteStudent.cs" />
     <Compile Include="Classes\Person.cs" />
+    <Compile Include="Classes\SeniorTrainer.cs" />
     <Compile Include="Classes\Student.cs" />
+    <Compile Include="Classes\Trainer.cs" />
     <Compile Include="Interfaces\IDroupoutStudent.cs" />
+    <Compile Include="Interfaces\ISeniorTrainer.cs" />
+    <Compile Include="Interfaces\ITrainer.cs" />
     <Compile Include="Interfaces\IPerson.cs" />
     <Compile Include="Interfaces\IStudent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SULSTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

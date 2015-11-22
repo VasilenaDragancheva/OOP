@@ -62,6 +62,7 @@ namespace Problem4_SLS.Classes
                {
                    throw new ArgumentOutOfRangeException("Age is positive number");
                }
+               this.age = value;
             }
         }
     }

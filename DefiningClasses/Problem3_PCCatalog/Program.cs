@@ -21,7 +21,7 @@ namespace Problem3_PCCatalog
             Computer less1 = new Computer("PC", motherboard, proccesor, HDD, new Component("Ram", 120));
             Computer[] pcs = { full, less, less1 };
 
-            pcs=pcs.OrderBy(pc => pc.Price()).ToArray();
+            pcs=pcs.OrderBy(pc => pc.Price).ToArray();
 
             foreach (Computer pc in pcs)
             {

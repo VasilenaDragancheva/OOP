@@ -10,7 +10,7 @@ namespace Problem3_PCCatalog
     {
         private string name;
         private string details;
-        private decimal price=5;
+        private decimal price;
 
         public Component(string name,decimal price)
             :this(name,null,price)

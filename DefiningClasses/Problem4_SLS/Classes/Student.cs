@@ -20,11 +20,15 @@ namespace Problem4_SLS.Classes
         {
             get
             {
-                throw new NotImplementedException();
+                return this.studentNumber;
             }
             set
             {
-                throw new NotImplementedException();
+               if(string.IsNullOrEmpty(value))
+               {
+                   throw new ArgumentNullException();
+               }
+               this.studentNumber = value;
             }
         }
 
