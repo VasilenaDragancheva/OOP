@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry.Geometry3D
 {
-    class DistanceCalculator3D
+    public class DistanceCalculator3D
     {
     }
 }

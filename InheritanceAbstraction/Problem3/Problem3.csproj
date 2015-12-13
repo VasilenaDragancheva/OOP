@@ -41,12 +41,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CompanyHierarchyTest.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Enum\Department.cs" />
+    <Compile Include="Enum\ProjectState.cs" />
+    <Compile Include="Interfaces\ICustomer.cs" />
+    <Compile Include="Interfaces\IDeveloper.cs" />
+    <Compile Include="Interfaces\IEmployee.cs" />
+    <Compile Include="Interfaces\IManager.cs" />
+    <Compile Include="Interfaces\IPerson.cs" />
+    <Compile Include="Interfaces\IProject.cs" />
+    <Compile Include="Interfaces\ISale.cs" />
+    <Compile Include="Interfaces\ISalesEmployee.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Developer.cs" />
+    <Compile Include="Models\Manager.cs" />
+    <Compile Include="Models\Project.cs" />
+    <Compile Include="Models\Sale.cs" />
+    <Compile Include="Models\SalesEmployee.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Models\App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

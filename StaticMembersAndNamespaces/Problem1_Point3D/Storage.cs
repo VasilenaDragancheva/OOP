@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Problem1_Point3D
 {
-    static class Storage
+    public static class Storage
     {
 
         public static void SavePath(Path3D path, String filePath)

@@ -4,7 +4,7 @@ using Problem4_SLS.Interfaces;
 
 namespace Problem4_SLS.Classes
 {
-    class DropoutStudent:Student,IDroupoutStudent
+    public class DropoutStudent:Student,IDroupoutStudent
     {
         private string dropoutReason;
 

@@ -2,7 +2,7 @@
 
 namespace Problem1_Point3D
 {
-    class Point3D
+    public class Point3D
     {
         private double x;
         private double y;

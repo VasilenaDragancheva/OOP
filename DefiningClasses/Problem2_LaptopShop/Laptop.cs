@@ -3,16 +3,11 @@ using System.Text;
 
 namespace Problem2_LaptopShop
 {
-    class Laptop
+    public class Laptop
     {
         private string model;
-        private string manifacture;
-        private string proccesor;
         private int? ram;
-        private string graphicCard;
-        private string hdd;
         private string screen;
-
         private decimal price;
 
         public Laptop(string model, decimal price)
@@ -48,40 +43,12 @@ namespace Problem2_LaptopShop
                 this.model = value;
             }
         }
-        public string Manifacture
-        {
-            get
-            {
-                return this.manifacture;
-            }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("Manifacture can not be empty");
-                }
-                this.manifacture = value;
-            }
-        }
-        public string Proccesor
-        {
-            get
-            {
-                return this.proccesor;
-            }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("Proccesor can not be empty");
-                }
-                this.proccesor = value;
-            }
-        }
+        public string Manifacture { get; set; }
+        public string Proccesor { get; set; }
         public int? Ram
         {
             get
-            {
+            {       
                 return this.ram;
             }
             set
@@ -93,51 +60,9 @@ namespace Problem2_LaptopShop
                 this.ram = value;
             }
         }
-        public string GraphicCard
-        {
-            get
-            {
-                return this.graphicCard;
-            }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("Graphic card can not be empty");
-                }
-                this.graphicCard = value;
-            }
-        }
-        public string Hdd
-        {
-            get
-            {
-                return this.hdd;
-            }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("HDD can not be empty");
-                }
-                this.hdd = value;
-            }
-        }
-        public string Screen
-        {
-            get
-            {
-                return this.screen;
-            }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("Screen can not be empty");
-                }
-                this.screen = value;
-            }
-        }
+        public string GraphicCard{get;set;}
+        public string Hdd { get; set; }
+        public string Screen { get; set; }
         public Battery Battery { get; set; }
         public decimal Price
         {

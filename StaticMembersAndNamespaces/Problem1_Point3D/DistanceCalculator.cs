@@ -2,7 +2,7 @@
 
 namespace Problem1_Point3D
 {
-    class DistanceCalculator
+    public class DistanceCalculator
     {
         public static double DistanceBetweenPoint3D(Point3D a,Point3D b)
         {

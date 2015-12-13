@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry.UI
 {
-    class Screen2D
+    public class Screen2D
     {
     }
 }

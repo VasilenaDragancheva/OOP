@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace Problem1.Models
 {
-    class Student:Human,IStudent
+   public class Student:Human,IStudent
     {
         private string studentNumber;
 

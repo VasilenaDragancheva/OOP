@@ -3,7 +3,7 @@ using Problem2.Enum;
 
 namespace Problem2.Models
 {
-    class Tomcat:Cat
+  public class Tomcat:Cat
     {
         private const Gender MALE = Gender.Male;
         public Tomcat(string name,int age)

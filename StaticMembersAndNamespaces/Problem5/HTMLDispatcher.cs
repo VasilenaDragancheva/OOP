@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem5
 {
-    static class HTMLDispatcher
+    public static class HTMLDispatcher
     {
         private const string URL = "url";
         private const string IMG = "img";

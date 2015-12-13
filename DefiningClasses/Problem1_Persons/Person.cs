@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Problem1_Persons
 {
-    class Person
+   public class Person
     {
         private string name;
         private int age;

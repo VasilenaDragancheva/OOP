@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem4_SLS.Classes
 {
-    class OnlineStudent:CurrentStudent
+   public class OnlineStudent:CurrentStudent
     {
         public OnlineStudent(string firstName,string lastName,int age,string studentNumber,double averageGrade,string currentCourse)
             :base(firstName,lastName,age,studentNumber,averageGrade,currentCourse)

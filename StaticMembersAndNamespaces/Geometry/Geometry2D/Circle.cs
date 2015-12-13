@@ -2,7 +2,7 @@
 
 namespace Geometry.Geometry2D
 {
-    class Circle
+    public class Circle
     {
     }
 }

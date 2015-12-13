@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem4_SLS.Classes
 {
-    abstract class CurrentStudent : Student
+   public abstract class CurrentStudent : Student
     {
 
         private string currentCourse;

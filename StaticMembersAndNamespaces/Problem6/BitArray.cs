@@ -7,7 +7,7 @@ using System.Numerics;
 
 namespace Problem6
 {
-    class BitArray
+    public class BitArray
     {
         private const int MAX_LENGTH = 100000;
         private const int MIN_LENGTH = 1;

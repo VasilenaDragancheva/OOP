@@ -3,7 +3,7 @@ using Problem2.Interfaces;
 using Problem2.Enum;
 namespace Problem2
 {
-    abstract class Animal:IAnimal,ISoundProducible
+   public abstract class Animal:IAnimal,ISoundProducible
     {
         string name;
         int age;

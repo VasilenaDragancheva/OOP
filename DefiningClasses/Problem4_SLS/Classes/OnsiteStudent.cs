@@ -3,7 +3,7 @@
 
 namespace Problem4_SLS.Classes
 {
-    class OnsiteStudent:CurrentStudent
+    public class OnsiteStudent:CurrentStudent
     {
 
         private int visits;

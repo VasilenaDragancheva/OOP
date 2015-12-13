@@ -4,7 +4,7 @@ using Problem4_SLS.Interfaces;
 
 namespace Problem4_SLS.Classes
 {
-    abstract class Student : Person, IStudent
+  public abstract class Student : Person, IStudent
     {
         private string studentNumber;
         private double averageGrade;

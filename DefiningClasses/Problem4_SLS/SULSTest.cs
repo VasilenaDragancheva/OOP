@@ -11,7 +11,7 @@ namespace Problem4_SLS
         {
             List<Person> persons = new List<Person>()
             {
-            new JuniorTrainer("Dragan","Draganov",30),
+        new JuniorTrainer("Dragan","Draganov",30),
         new JuniorTrainer("Petko","Petkov",26),
         new SeniorTrainer("Dimityr","Dimitrov",29),
         new DropoutStudent("Pesho","Peshev",22,"2382A",3.4,"Lazy"),
@@ -25,12 +25,12 @@ namespace Problem4_SLS
                  .OfType<CurrentStudent>()
                  .OrderByDescending(st => st.AverageGrade);
 
-            foreach(var student in students)
+            foreach (var student in students)
             {
-                Console.WriteLine("{0}-->{1}",student.FirstName,student.AverageGrade);
+                Console.WriteLine("{0}-->{1}", student.FirstName, student.AverageGrade);
             }
-                
-                
+
+
         }
 
     }

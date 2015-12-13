@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry.Geometry2D
 {
-    class Ellipse
+    public class Ellipse
     {
     }
 }

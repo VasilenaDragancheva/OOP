@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry.Storage
 {
-    class GeometryBinaryStorage
+    public class GeometryBinaryStorage
     {
     }
 }

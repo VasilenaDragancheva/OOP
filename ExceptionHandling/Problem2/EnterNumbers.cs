@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem2
 {
-    class EnterNumbers
+    public class EnterNumbers
     {
         private static int count = 10;
         static void Main(string[] args)

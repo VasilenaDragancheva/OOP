@@ -3,7 +3,7 @@
 
 namespace Geometry.Geometry2D
 {
-    class Point2D
+    public class Point2D
     {
     }
 }

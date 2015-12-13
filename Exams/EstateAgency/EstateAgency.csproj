@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47DAF1EA-CB17-400C-AFD7-0B7C9AFBCE62}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EstateAgency</RootNamespace>
+    <AssemblyName>EstateAgency</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\CreateEstateAttribute.cs" />
+    <Compile Include="Attributes\EstateAttribute.cs" />
+    <Compile Include="Attributes\Engine\Commands\Command.cs" />
+    <Compile Include="Attributes\Engine\Commands\Create.cs" />
+    <Compile Include="Attributes\Engine\Commands\FindRentsByPrice.cs" />
+    <Compile Include="Attributes\Engine\Commands\FindSalesByLocation.cs" />
+    <Compile Include="Attributes\Engine\DataBase.cs" />
+    <Compile Include="Attributes\Engine\EstateFactory.cs" />
+    <Compile Include="Models\Estates\Appartment.cs" />
+    <Compile Include="Models\Estates\EstateType.cs" />
+    <Compile Include="Models\Interfaces\IElevatorHavable.cs" />
+    <Compile Include="Models\Interfaces\IEstate.cs" />
+    <Compile Include="Models\Estates\Estate.cs" />
+    <Compile Include="Models\Estates\Garage.cs" />
+    <Compile Include="Models\Estates\House.cs" />
+    <Compile Include="Models\Interfaces\IOffer.cs" />
+    <Compile Include="Models\Interfaces\IRoomsCountable.cs" />
+    <Compile Include="Models\Estates\Office.cs" />
+    <Compile Include="Models\Offers\Offer.cs" />
+    <Compile Include="Models\Offers\RentalOffer.cs" />
+    <Compile Include="Models\Offers\SaleOffer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

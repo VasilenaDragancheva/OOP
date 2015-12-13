@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem1
 {
-     static class Calculator
+    public static class Calculator
     {
        
 

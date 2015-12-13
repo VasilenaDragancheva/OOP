@@ -7,7 +7,7 @@ using Problem1.Interfaces;
 
 namespace Problem1.Models
 {
-    class Worker:Human,IWorker
+    public class Worker:Human,IWorker
     {
         private decimal weekSalary;
         private int workHoursPerDay;

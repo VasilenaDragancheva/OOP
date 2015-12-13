@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem3_PCCatalog
 {
-    class Computer
+   public class Computer
     {
         private string name;
         private List<Component> components;

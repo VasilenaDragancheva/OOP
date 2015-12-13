@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry.Geometry3D
 {
-    class Point3D
+    public class Point3D
     {
     }
 }

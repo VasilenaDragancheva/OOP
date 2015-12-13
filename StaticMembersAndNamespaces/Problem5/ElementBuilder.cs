@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem5
 {
-    class ElementBuilder
+    public class ElementBuilder
     {
 	
         private string tagName;

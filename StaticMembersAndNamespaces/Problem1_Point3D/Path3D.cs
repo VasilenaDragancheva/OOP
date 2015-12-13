@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Problem1_Point3D
 {
-    class Path3D
+    public class Path3D
     {
         private List<Point3D> points;
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem1
 {
-    class TestingSquareRoot
+    public class TestingSquareRoot
     {
         static void Main(string[] args)
         {

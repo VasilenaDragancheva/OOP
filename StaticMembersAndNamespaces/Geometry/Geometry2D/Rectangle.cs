@@ -2,7 +2,7 @@
 
 namespace Geometry.Geometry2D
 {
-    class Rectangle
+    public class Rectangle
     {
     }
 }

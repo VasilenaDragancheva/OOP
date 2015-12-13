@@ -7,7 +7,7 @@ using Problem1.Interfaces;
 
 namespace Problem1
 {
-    abstract class Human:IHuman
+   public abstract class Human:IHuman
     {
         private string firstName;
         private string lastName;

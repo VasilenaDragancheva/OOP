@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem3_PCCatalog
 {
-    class Component
+   public class Component
     {
         private string name;
         private string details;

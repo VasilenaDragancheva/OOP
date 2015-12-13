@@ -3,9 +3,9 @@ using Problem2.Enum;
 
 namespace Problem2.Models
 {
-    class Dog:Animal
+   public class Dog:Animal
     {
-        public Dog(string name,int age,Gender gender)
+       public Dog(string name,int age,Gender gender)
             :base(name,age,gender)
         {
 

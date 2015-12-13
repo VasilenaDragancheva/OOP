@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Problem1_Point3D
 {
-    class TestingPaths
+    public class TestingPaths
     {
         static void Main(string[] args)
         {

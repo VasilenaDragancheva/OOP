@@ -4,7 +4,7 @@ using Problem4_SLS.Interfaces;
 
 namespace Problem4_SLS.Classes
 {
-   abstract class Person :IPerson
+  public abstract class Person :IPerson
     {
        private string firstName;
        private string lastName;

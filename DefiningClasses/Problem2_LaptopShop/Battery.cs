@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Problem2_LaptopShop
 {
-    class Battery
+   public class Battery
     {
         private string name;
         private double lifetime;

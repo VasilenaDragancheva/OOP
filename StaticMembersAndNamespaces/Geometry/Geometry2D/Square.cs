@@ -2,7 +2,7 @@
 
 namespace Geometry.Geometry2D
 {
-    class Square
+    public class Square
     {
     }
 }

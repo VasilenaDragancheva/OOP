@@ -3,7 +3,7 @@ using Problem4_SLS.Interfaces;
 
 namespace Problem4_SLS.Classes
 {
-    abstract class Trainer:Person,ITrainer
+   public abstract class Trainer:Person,ITrainer
     {
         public Trainer(string firstName,string lastName,int age):base(firstName,lastName,age)
         {
